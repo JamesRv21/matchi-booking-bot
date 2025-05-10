@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Credentials & session data
+.env
+cookies.json
+
+# Playwright artifacts
+playwright/.cache/
+*.log
+trace.zip
+
+# VSCode/IDE settings
+.vscode/
+.idea/
+
+# Logs/output
+*.log
+*.csv
+*.sqlite
+data/logs/
+
+# OS files
+.DS_Store
+Thumbs.db
